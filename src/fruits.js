@@ -1,6 +1,6 @@
-const foods = [
+const fruits = [
     "🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🍎",
     "🍏", "🍐", "🍒", "🍓", "🥝", "🍅", "🥑",
   ];
 
-export {foods};
+export default fruits;

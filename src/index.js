@@ -1,7 +1,9 @@
+import fruits from './fruits';
 import {choice, remove} from './helpers';
-import {foods} from './foods';
 
-let randomFruit = choice(foods);
+let randomFruit = choice(fruits);
 console.log(`I'd like one ${randomFruit}`);
 console.log(`Here you go: ${randomFruit}`);
 console.log('Delicious! May I have another?');
+remove(fruits, randomFruit);
+console.log(`I'm sorry, we're all out. We have ${fruits.length}.`);
